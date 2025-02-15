@@ -1,0 +1,76 @@
+/* Languages.css */
+
+.add-species-form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-species-form-container h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-species-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-species-form input,
+.add-species-form textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.add-species-form input:focus,
+.add-species-form textarea:focus {
+  border: 1px solid #281d0a;
+}
+
+.add-species-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.add-species-form button {
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #281d0a;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-species-form button:hover {
+  background-color: #281d0a;
+}
+
+.add-species-form-container p {
+  text-align: center;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .add-species-form-container {
+    width: 90%;
+  }
+
+  .add-species-form {
+    padding: 15px;
+  }
+}

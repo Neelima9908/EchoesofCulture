@@ -1,0 +1,74 @@
+/* Learn.css */
+
+.learn-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .learn-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+  }
+  
+  .learn-container p {
+    text-align: center;
+    font-size: 1rem;
+    color: #ff4d4d;
+  }
+  
+  .tribe-language-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  /* Section styles */
+  .tribes-section,
+  .languages-section {
+    flex: 1;
+    min-width: 45%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tribes-section h2,
+  .languages-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Cards container */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .cards-container p {
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Card hover effect */
+  .cards-container > * {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .cards-container > *:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  

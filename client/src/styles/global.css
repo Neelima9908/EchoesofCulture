@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navbar h1 {
+      font-size: 1.5rem;
+    }
+  
+    .home-container h1 {
+      font-size: 2rem;
+    }
+  
+    .tribes-container li,
+    .languages-container li,
+    .comments-container li {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .add-comment-container textarea {
+      height: 120px;
+    }
+  }
+  
